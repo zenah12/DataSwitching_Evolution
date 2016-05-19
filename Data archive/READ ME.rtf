@@ -1,74 +1,38 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+ Below you can find a brief description of the information in the data files used to generate each figure
 
-\f0\fs24 \cf0 Below you can find a brief description of the information in the data files used to generate each figure\
-\
-\
+Fig. 2A
+Each text file has two columns each of which stores the number of individuals of mating type 1 and mating type 2 respectively. The rows are these numbers over vegetative time so row 1 is the count of each mating type at time 0, row 2 at time 2 and so forth. There are 500 files for N = 100, 500, 1000, 5000. These can be imported in mathematica or any other programming software to plot Figure 2A. Note that the values shown are in fact the count of each mating type + 1.\
 
-\b Fig. 2A\
 
-\b0 Each text file has two columns each of which stores the number of individuals of mating type 1 and mating type 2 respectively. The rows are these numbers over vegetative time so row 1 is the count of each mating type at time 0, row 2 at time 2 and so forth. There are 500 files for N = 100, 500, 1000, 5000. These can be imported in mathematica or any other programming software to plot Figure 2A. Note that the values shown are in fact the count of each mating type + 1.\
-\
-\
+Fig. 2B
+Each text file has two columns, the first column takes values in \{0, 1\}, 0 indicates extinction and 1 fixation of the mutant. The second column indicates the number of full life cycles it took for the mutant to reach extinction/fixation. This is repeated 50000 for N = 100, 500, 1000, 5000. The values for N and g are indicated on the file name.
 
-\b Fig. 2B\
+Fig. 3A
+Each text file has two columns, the first column takes values in \{0, 1\}, 0 indicates extinction and 1 fixation of the mutant. The second column indicates the number of full life cycles it took for the mutant to reach extinction/fixation. This is repeated 50000 for g = 10, 50, 200. The values for N and and the switching probability are indicated on the file name.\
 
-\b0 Each text file has two columns, the first column takes values in \{0, 1\}, 0 indicates extinction and 1 fixation of the mutant. The second column indicates the number of full life cycles it took for the mutant to reach extinction/fixation. This is repeated 50000 for N = 100, 500, 1000, 5000. The values for N and g are indicated on the file name.
-\b \
+Fig. 3B
+Each text file has two columns each of which stores the number of individuals of mating type 1 and mating type 2 respectively. The rows are these numbers over vegetative time so row 1 is the count of each mating type at time 0, row 2 at time 2 and so forth. There are 500 files for p_switch = 0, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5. These can be imported in mathematica or any other programming software to plot Figure 2A. Note that the values shown are in fact the count of each mating type + 1.\
 
-\b0 \
-
-\b Fig. 3A\
-
-\b0 Each text file has two columns, the first column takes values in \{0, 1\}, 0 indicates extinction and 1 fixation of the mutant. The second column indicates the number of full life cycles it took for the mutant to reach extinction/fixation. This is repeated 50000 for g = 10, 50, 200. The values for N and and the switching probability are indicated on the file name.\
-\
-
-\b Fig. 3B\
-
-\b0 Each text file has two columns each of which stores the number of individuals of mating type 1 and mating type 2 respectively. The rows are these numbers over vegetative time so row 1 is the count of each mating type at time 0, row 2 at time 2 and so forth. There are 500 files for p_switch = 0, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5. These can be imported in mathematica or any other programming software to plot Figure 2A. Note that the values shown are in fact the count of each mating type + 1.\
-\
-\
-
-\b Fig.4
-\b0 \
+Fig.4
 Each text file has two columns, the first column takes values in \{0, 1\}, 0 indicates extinction and 1 fixation of the mutant. The second column indicates the number of full life cycles it took for the mutant to reach extinction/fixation. This is repeated 100000 for p_switch = \{0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1\} and cost(c) = \{0, 0.001, 0.005, 0.01,0.025, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5\}. The values for N and and the cost function exponent are indicated on each file name.\
-\
 
-\b Fig. 5\
+Fig. 5
+Each text file holds the mean switching rate for a single population over time, reported every 1000 generations (note that the switching rate is uniform so most individuals actually have the same switching rate). There are 200 replicates of each simulation and we randomly choose 500 time points beyond the 8000 time point to generate the histograms.\
 
-\b0 Each text file holds the mean switching rate for a single population over time, reported every 1000 generations (note that the switching rate is uniform so most individuals actually have the same switching rate). There are 200 replicates of each simulation and we randomly choose 500 time points beyond the 8000 time point to generate the histograms.\
-\
-5C-F*\
+5C-F*
 These files can be used to generate the red lines in Fig. C-F\
-\
 
-\b Fig. 6
-\b0 \
+Fig. 6
 Each text file holds the mean switching rate for a single population over time, reported every 1000 generations (note that the switching rate is uniform so most individuals actually have the same switching rate). \
-\
 
-\b Fig. 7A\
+Fig. 7A
+Each text file has m columns (the number of mating types) each of which stores the number of individuals of mating type j, where j is the column number. The rows are these numbers over vegetative time so row 1 is the count of each mating type at time 0, row 2 at time 2 and so forth. There are 500 files for m = 2, 3, 5, 8. These can be imported in mathematica or any other programming software to plot Figure 2A. Note that the values shown are in fact the count of each mating type + 1.\
 
-\b0 Each text file has m columns (the number of mating types) each of which stores the number of individuals of mating type j, where j is the column number. The rows are these numbers over vegetative time so row 1 is the count of each mating type at time 0, row 2 at time 2 and so forth. There are 500 files for m = 2, 3, 5, 8. These can be imported in mathematica or any other programming software to plot Figure 2A. Note that the values shown are in fact the count of each mating type + 1.\
-\
+Fig. 7B
+A single instance out of the 200 repeats used for Fig. 7A, with m = 8. 
 
-\b Fig. 7B\
+Fig. 7C
+Each text file has two columns, the first column takes values in \{0, 1\}, 0 indicates extinction and 1 fixation of the mutant. The second column indicates the number of full life cycles it took for the mutant to reach extinction/fixation. This is repeated 50 000 for m = \{50, 40, 30, 20, 15, 10, 8, 6, 5, 4, 3, 2\}. There are two versions of this, one for the traditional model and one where selection for speedy mating is imposed. The latter files are marked with the word \'93hard\'94 at the end of each file name. \
 
-\b0 A single instance out of the 200 repeats used for Fig. 7A, with m = 8. \
-\
 
-\b Fig. 7C\
 
-\b0 Each text file has two columns, the first column takes values in \{0, 1\}, 0 indicates extinction and 1 fixation of the mutant. The second column indicates the number of full life cycles it took for the mutant to reach extinction/fixation. This is repeated 50 000 for m = \{50, 40, 30, 20, 15, 10, 8, 6, 5, 4, 3, 2\}. There are two versions of this, one for the traditional model and one where selection for speedy mating is imposed. The latter files are marked with the word \'93hard\'94 at the end of each file name. \
-\
-\
-\
-\
-
-\b \
-
-\b0 \
-}
